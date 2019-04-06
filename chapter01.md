@@ -91,12 +91,19 @@ public class MyServlet extends HttpServlet {
     - 异步的写法完全不同， `req.startAsync()` 有点像 `Thread.start()`
     - `ctx.complete();` 这句非常关键，放到 `try{}finally{ ctx.complete(); }` 是最好的，表明完成任务后主动触发'complete'
 
+## 1-9
 
+### ViewResolver
 
+- `ViewResolver` 位于 `org.springframework.web.servlet` 包下，
+- 项目中有多个模板引擎共存时，需要'内容协商' `ContentNegotiatingViewResolver`
 
+### 异常处理
 
-
-
+- `@ExceptionHandler`
+- `HandlerExceptionResolver` , `ExceptionHandlerExceptionResolver`
+- `BasicErrorController`
+    - 'Whitelabel Error Page' 就是由这个类产生的？
 
 
 
