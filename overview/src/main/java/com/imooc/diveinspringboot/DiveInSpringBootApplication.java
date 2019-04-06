@@ -13,5 +13,6 @@ public class DiveInSpringBootApplication {
 //				.web(WebApplicationType.NONE)
                 .run(args);
 //		SpringApplication.run(DiveInSpringBootApplication.class, args);
+
     }
 }
