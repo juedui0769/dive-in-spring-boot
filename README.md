@@ -4,7 +4,9 @@
 >
 > D:\wxg103\dive-in-spring-boot
 >
-> <https://docs.spring.io/spring-boot/docs/2.0.9.RELEASE/reference/htmlsingle/> , 视频中使用的是`2.0.1`
+> <https://docs.spring.io/spring-boot/docs/2.0.9.RELEASE/reference/htmlsingle/> , 视频中使用的是`2.0.1.RELEASE`, `2.0.2.RELEASE`
+>
+> <./chapter01.md>,
 
 ### Spring Boot 易学
 
