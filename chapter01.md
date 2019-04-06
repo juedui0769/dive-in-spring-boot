@@ -105,8 +105,22 @@ public class MyServlet extends HttpServlet {
 - `BasicErrorController`
     - 'Whitelabel Error Page' 就是由这个类产生的？
 
+### 资源服务
 
+- @RequstMapping
+    - @GetMapping, @PostMapping, @PutMapping, @DeleteMapping
+- @ResponseBody
+- @RequestBoby
 
+### 资源跨域
+
+- 传统解决方案
+    - iframe
+    - JSONP
+- `@CrossOrigin` : 注解驱动
+- `WebMvcConfigurer#addCorsMappings` : 接口编程
+
+## 1-10
 
 
 
