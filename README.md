@@ -6,6 +6,8 @@
 >
 > <https://docs.spring.io/spring-boot/docs/2.0.9.RELEASE/reference/htmlsingle/> , 视频中使用的是`2.0.1.RELEASE`, `2.0.2.RELEASE`
 >
+> <https://github.com/juedui0769/sboot201902> , 这也是spring boot的学习笔记
+>
 > [chapter01](./chapter01.md),
 >
 > [MyDiscoveries](./MyDiscoveries.md),
