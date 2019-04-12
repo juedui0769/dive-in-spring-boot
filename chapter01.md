@@ -167,35 +167,40 @@ org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration,\
 - `spring-boot-starter-jta-narayana`
 可以在文档中搜索'transaction'了解更多内容。
 
-## 1-13
+## 1-13 功能扩展
+
+- Spring Application 失败分析、事件监听
+- 外部化配置、Profile、配置属性
+- Starter开发、最佳实践
+
+`FailureAnalysisReporter`
+
+`SpringApplication.run(clazz, args)` -> `new SpringApplicationBuilder(clazz).run(args)`
+
+### 外部化配置
+
+`2.0`之前使用 `PropertySources`, `2.0`之后使用 `ConfigurationProperty`
+- `PropertySources` 有两个，一个是接口，一个是注解。
+
+[24. Externalized Configuration](https://docs.spring.io/spring-boot/docs/2.0.1.RELEASE/reference/htmlsingle/#boot-features-external-config)
+- 这节文档中列举了`17`配置（小马哥说不止17种）
+
+`@Profile` -> `@Conditional` : 又profile进化为conditional
+
+## 1-14 运维管理
+
+Spring Boot Actuator
+- 端点 ： web endpoints , JMX endpoints
+- 健康检查
+- 指标 metrics
+
+`application.properties`开放所有的 Web Endpoints, 如下(可以在官方文档中搜索)
+
+```
+management.endpoints.web.exposure.include=*
+```
 
 
+## end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+chapter01 完结
