@@ -120,7 +120,81 @@ public class MyServlet extends HttpServlet {
 - `@CrossOrigin` : 注解驱动
 - `WebMvcConfigurer#addCorsMappings` : 接口编程
 
-## 1-10
+## 1-10 WebFlux
+
+- Reactor基础 ： Java Lambda , Mono, Flux
+
+- Web Flux核心： Web MVC注解、函数式声明、异步非阻塞
+
+- 使用场景： Web Flux 优势和限制
+
+## 1-11 Web Server
+
+tomcat, jetty, 
+
+`WebServerFactoryCustomizer` : 这个接口是 `2.0` 才添加的, 它是一个总接口，既包含传统的tomcat、jetty，又包含WebFlux
+- `TomcatServletWebServerFactoryCustomizer`
+- `ReactiveWebServerFactoryCustomizer`
+- ...
+
+## 1-12 数据相关
+
+- JDBC
+
+- JPA
+- 事务
+
+可以在`spring.factories`(spring-boot-autoconfigure)中找到下面的配置
+
+```
+org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration,\
+org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration,\
+```
+
+视频中使用的`transction`是下面的依赖。
+
+```xml
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-tx</artifactId>
+</dependency>
+```
+
+在2.9.0官方文档中，[38. Distributed Transactions with JTA](https://docs.spring.io/spring-boot/docs/2.0.9.RELEASE/reference/htmlsingle/#boot-features-jta)
+使用的不一样。可以选择
+- `spring-boot-starter-jta-atomikos`
+- `spring-boot-starter-jta-bitronix`
+- `spring-boot-starter-jta-narayana`
+可以在文档中搜索'transaction'了解更多内容。
+
+## 1-13
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
