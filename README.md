@@ -8,7 +8,7 @@
 >
 > <https://github.com/juedui0769/sboot201902> , 这也是spring boot的学习笔记
 >
-> [chapter01](./chapter01.md),
+> [chapter01](./chapter01.md), [chapter02](./chapter02.md),
 >
 > [MyDiscoveries](./MyDiscoveries.md),
 
