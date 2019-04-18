@@ -16,5 +16,47 @@ spring模式注解装配
 
 ### 2-4 
 
+> Spring Framework 手动装配
+
+#### Spring @Enable 模块装配
+
+- 举例 : `@EnableWebMvc`, `@EnableAutoConfiguration`
+- 实现 : 注解方式、编程方式
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
