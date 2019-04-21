@@ -23,6 +23,47 @@ spring模式注解装配
 - 举例 : `@EnableWebMvc`, `@EnableAutoConfiguration`
 - 实现 : 注解方式、编程方式
 
+### 2-5
+
+条件装配
+- `@Profile`, `@Conditional`
+
+### 2-6
+
+`@Profile` 代码演示
+
+### 2-7
+
+> 2019年4月21日14:49:12，看的有点烦躁了。
+
+基于编程方式实现条件装配
+- 这一节有点复杂，看懂了一部分。
+
+### 2-8
+
+Spring Boot 自动装配
+
+`SpringFactoriesLoader`
+- "META-INF/spring.factories"
+    - spring-boot-autoconfigure-2.0.2.RELEASE.jar
+
+### 2-9
+
+自定义自动装配
+
+### 2-10
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
